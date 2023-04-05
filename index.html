@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Billing Module</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/style.css" />
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <main>
+      <section class="section-grid">
+        <div class="div-1">
+          <img class="logo" src="/assets/main-logo.png" />
+          <div class="profile bb">
+            <img class="prfl-grl" src="/assets/girl.jpg" />
+            <p class="prfl-nm">Brooklyn Alice</p>
+            <ion-icon class="arw" name="chevron-down-outline"></ion-icon>
+          </div>
+          <div class="profile">
+            <ion-icon class="icon-sidebar" name="grid-outline"></ion-icon>
+            <p class="prfl-nm">Dashboards</p>
+            <ion-icon class="arw" name="chevron-down-outline"></ion-icon>
+          </div>
+          <p class="pgs">PAGES</p>
+          <div class="profile">
+            <ion-icon class="icon-sidebar pr" name="albums-outline"></ion-icon>
+            <p class="prfl-nm">Pages</p>
+            <ion-icon class="arw" name="chevron-up-outline"></ion-icon>
+          </div>
+          <div class="profile">
+            <p class="prfl-nm ml">A</p>
+            <p class="prfl-nm">Profile</p>
+            <ion-icon class="arw" name="chevron-down-outline"></ion-icon>
+          </div>
+          <div class="profile">
+            <p class="prfl-nm ml">U</p>
+            <p class="prfl-nm">Users</p>
+            <ion-icon class="arw" name="chevron-down-outline"></ion-icon>
+          </div>
+          <div class="profile">
+            <p class="prfl-nm ml">A</p>
+            <p class="prfl-nm">Account</p>
+            <ion-icon class="arw" name="chevron-up-outline"></ion-icon>
+          </div>
+          <div class="profile">
+            <p class="prfl-nm ml">S</p>
+            <p class="prfl-nm">Settings</p>
+          </div>
+          <div class="profile">
+            <p class="prfl-nm ml">B</p>
+            <p class="prfl-nm">Billing</p>
+          </div>
+          <div class="profile">
+            <p class="prfl-nm ml">I</p>
+            <p class="prfl-nm">Invoice</p>
+          </div>
+          <div class="profile">
+            <p class="prfl-nm ml">S</p>
+            <p class="prfl-nm">Security</p>
+          </div>
+          <div class="profile">
+            <p class="prfl-nm ml">P</p>
+            <p class="prfl-nm">Projects</p>
+            <ion-icon class="arw" name="chevron-down-outline"></ion-icon>
+          </div>
+          <div class="profile">
+            <p class="prfl-nm ml">P</p>
+            <p class="prfl-nm">Virtual Reality</p>
+            <ion-icon class="arw" name="chevron-down-outline"></ion-icon>
+          </div>
+          <div class="profile">
+            <p class="prfl-nm ml">P</p>
+            <p class="prfl-nm">Pricing Page</p>
+          </div>
+          <div class="profile">
+            <p class="prfl-nm ml">R</p>
+            <p class="prfl-nm">RTL</p>
+          </div>
+          <div class="profile">
+            <p class="prfl-nm ml">W</p>
+            <p class="prfl-nm">Widgets</p>
+          </div>
+          <div class="profile">
+            <p class="prfl-nm ml">C</p>
+            <p class="prfl-nm">Charts</p>
+          </div>
+          <div class="profile">
+            <p class="prfl-nm ml">S</p>
+            <p class="prfl-nm">Sweet Alerts</p>
+          </div>
+          <div class="profile">
+            <p class="prfl-nm ml">N</p>
+            <p class="prfl-nm">Notifications</p>
+          </div>
+        </div>
+        <div class="div-2 dg">
+          <img
+            onclick="showSidebar()"
+            class="menu-icon"
+            src="/assets/icons8-menu-96.png"
+          />
+          <div class="second-grid-top dg">
+            <div class="top-sec-bar">
+              <div class="nav-bar">
+                <div class="nav-menu">
+                  <div>
+                    <div>
+                      <p class="home-p">
+                        <ion-icon class="home-icon" name="home"></ion-icon
+                        ><span class="slash"> /</span><span>Pages</span
+                        ><span class="slash"> /</span><span>Account</span
+                        ><span class="slash"> /</span
+                        ><span class="bilng">Billing</span>
+                      </p>
+                    </div>
+                    <p class="nav-bill">Billing</p>
+                  </div>
+                </div>
+                <div class="right-ic">
+                  <input
+                    class="nav-inpbar"
+                    type="text"
+                    placeholder="Search here"
+                  /><img src="/assets/account.png" /><img
+                    src="/assets/Subtract.png"
+                  /><img src="/assets/Vector copy 2.png" />
+                </div>
+              </div>
+              <div class="options">
+                <p class="optn active">Messages</p>
+                <p class="optn">Social</p>
+                <p class="optn">Notifications</p>
+                <p class="optn">Backup</p>
+              </div>
+            </div>
+            <div class="sec-in-grid dg">
+              <div class="ccard-grid dg">
+                <div class="top-cc">
+                  <img
+                    class="crdt-card"
+                    src="/assets/Section-CreditCard.png"
+                  /><br class="breakit" />
+                  <div class="tiles">
+                    <div class="ccard-tiles">
+                      <img class="card-icon" src="/assets/bank.png" />
+                    </div>
+                    <h4 class="tile-h4">Salary</h4>
+                    <p class="tile-p">Belong Interactive</p>
+                    <h3 class="tile-h3">+$2000</h3>
+                  </div>
+                  <div class="tiles">
+                    <div class="ccard-tiles">
+                      <img class="card-icon" src="/assets/wallet.png" />
+                    </div>
+                    <h4 class="tile-h4">PayPal</h4>
+                    <p class="tile-p">Freelance Payment</p>
+                    <h3 class="tile-h3">$455</h3>
+                  </div>
+                </div>
+                <div class="bottom-cc">
+                  <div class="add-card">
+                    <p class="p-method">Payment Method</p>
+                    <div>
+                      <button class="add-card-btn">+ ADD NEW CARD</button
+                      ><button class="add-card-btn edit-btn">EDIT CARD</button>
+                    </div>
+                  </div>
+                  <div class="cards-add">
+                    <input
+                      placeholder="****  ****  ****  4409"
+                      type="text"
+                      class="inpt-card"
+                    /><input
+                      placeholder="****  ****  ****  4409"
+                      type="text"
+                      class="inpt-card"
+                    />
+                    <img class="card-logo-a" src="/assets/visa (1).png" />
+
+                    <img class="card-logo-b" src="/assets/mastercard.png" />
+                    <img class="card-logo-c" src="/assets/Vector-1.png" />
+                    <img class="card-logo-d" src="/assets/Vector-1.png" />
+                  </div>
+                </div>
+              </div>
+              <div class="invoices dg">
+                <div class="invc-top">
+                  <h1 class="invc-h1-top">Invoices</h1>
+                  <button class="invc-btn">VIEW ALL</button>
+                </div>
+                <div class="invoice-entries">
+                  <div class="invc-date">
+                    <h1 class="gnrl-invc">March, 01, 2020</h1>
+                    <p class="invc-p1">#MS-415646</p>
+                  </div>
+                  <div class="invc-right">
+                    <p class="invc-p2">$180</p>
+                    <div class="invc-pdf">
+                      <img class="invc-logo" src="/assets/icons8-pdf-64.png" />
+                      <h1 class="gnrl-invc">PDF</h1>
+                    </div>
+                  </div>
+                </div>
+                <div class="invoice-entries">
+                  <div class="invc-date">
+                    <h1 class="gnrl-invc">February, 10, 2021</h1>
+                    <p class="invc-p1">#RV-126749</p>
+                  </div>
+                  <div class="invc-right">
+                    <p class="invc-p2">$250</p>
+                    <div class="invc-pdf">
+                      <img class="invc-logo" src="/assets/icons8-pdf-64.png" />
+                      <h1 class="gnrl-invc">PDF</h1>
+                    </div>
+                  </div>
+                </div>
+                <div class="invoice-entries">
+                  <div class="invc-date">
+                    <h1 class="gnrl-invc">April, 05, 2020</h1>
+                    <p class="invc-p1">#FB-212562</p>
+                  </div>
+                  <div class="invc-right">
+                    <p class="invc-p2">$560</p>
+                    <div class="invc-pdf">
+                      <img class="invc-logo" src="/assets/icons8-pdf-64.png" />
+                      <h1 class="gnrl-invc">PDF</h1>
+                    </div>
+                  </div>
+                </div>
+                <div class="invoice-entries">
+                  <div class="invc-date">
+                    <h1 class="gnrl-invc">June, 25, 2019</h1>
+                    <p class="invc-p1">#QW-103578</p>
+                  </div>
+                  <div class="invc-right">
+                    <p class="invc-p2">$120</p>
+                    <div class="invc-pdf">
+                      <img class="invc-logo" src="/assets/icons8-pdf-64.png" />
+                      <h1 class="gnrl-invc">PDF</h1>
+                    </div>
+                  </div>
+                </div>
+                <div class="invoice-entries">
+                  <div class="invc-date">
+                    <h1 class="gnrl-invc">March, 01, 2020</h1>
+                    <p class="invc-p1">#AR-803481</p>
+                  </div>
+                  <div class="invc-right">
+                    <p class="invc-p2">$300</p>
+                    <div class="invc-pdf">
+                      <img class="invc-logo" src="/assets/icons8-pdf-64.png" />
+                      <h1 class="gnrl-invc">PDF</h1>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="second-grid-bottom dg">
+            <div class="billing-info">
+              <h3 class="info-h3">Billing Information</h3>
+              <div class="info-card">
+                <div>
+                  <h3 class="info-name">Oliver Liam</h3>
+                  <p class="info-p">
+                    Company Name : <span class="info-span">Viking Burrito</span>
+                  </p>
+                  <p class="info-p">
+                    Email Address :
+                    <span class="info-span">oliver@burrito.com</span>
+                  </p>
+                  <p class="info-p">
+                    VAT Number : <span class="info-span">FRB1235476</span>
+                  </p>
+                </div>
+                <div class="del-edt">
+                  <div class="delflx">
+                    <img class="icon-del" src="/assets/Vector copy.png" />
+                    <p class="del">DELETE</p>
+                  </div>
+                  <div class="delflx">
+                    <img class="icon-del" src="/assets/Vector-1.png" />
+                    <p class="edt">EDIT</p>
+                  </div>
+                </div>
+              </div>
+              <div class="info-card">
+                <div>
+                  <h3 class="info-name">Lucas Harper</h3>
+                  <p class="info-p">
+                    Company Name :
+                    <span class="info-span">Stone Tech Zone</span>
+                  </p>
+                  <p class="info-p">
+                    Email Address :
+                    <span class="info-span">lucas@stone-tech.com</span>
+                  </p>
+                  <p class="info-p">
+                    VAT Number : <span class="info-span">FRB1235476</span>
+                  </p>
+                </div>
+                <div class="del-edt">
+                  <div class="delflx">
+                    <img class="icon-del" src="/assets/Vector copy.png" />
+                    <p class="del">DELETE</p>
+                  </div>
+                  <div class="delflx">
+                    <img class="icon-del" src="/assets/Vector-1.png" />
+                    <p class="edt">EDIT</p>
+                  </div>
+                </div>
+              </div>
+              <div class="info-card">
+                <div>
+                  <h3 class="info-name">Ethan James</h3>
+                  <p class="info-p">
+                    Company Name : <span class="info-span">Fiber Notion</span>
+                  </p>
+                  <p class="info-p">
+                    Email Address :
+                    <span class="info-span">ethan@fiber.com</span>
+                  </p>
+                  <p class="info-p">
+                    VAT Number : <span class="info-span">FRB1235476</span>
+                  </p>
+                </div>
+                <div class="del-edt">
+                  <div class="delflx">
+                    <img class="icon-del" src="/assets/Vector copy.png" />
+                    <p class="del">DELETE</p>
+                  </div>
+                  <div class="delflx">
+                    <img class="icon-del" src="/assets/Vector-1.png" />
+                    <p class="edt">EDIT</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="transactions">
+              <div class="trans-top">
+                <h1 class="trans-top-h">Your Transaction’s</h1>
+                <div class="trans-top-date">
+                  <ion-icon
+                    class="trans-top-icon"
+                    name="calendar-outline"
+                  ></ion-icon>
+                  <p>23 - 30 March 2020</p>
+                </div>
+              </div>
+              <p class="trnsc-head">NEWEST</p>
+              <div class="transtns">
+                <div class="transcn-left">
+                  <img class="arr-cir" src="/assets/circle-arrow-down.png" />
+                  <div>
+                    <h1 class="trnscn-name">Netflix</h1>
+                    <p class="transcsn-date">27 March 2020, at 12:30 PM</p>
+                  </div>
+                </div>
+                <p class="rd">- $ 2,500</p>
+              </div>
+              <div class="transtns">
+                <div class="transcn-left">
+                  <img class="arr-cir" src="/assets/circle-arrow-up.png" />
+                  <div>
+                    <h1 class="trnscn-name">Apple</h1>
+                    <p class="transcsn-date">27 March 2020, at 04:30 AM</p>
+                  </div>
+                </div>
+                <p class="grn">+ $ 2,000</p>
+              </div>
+              <p class="trnsc-head">YESTERDAY</p>
+              <div class="transtns">
+                <div class="transcn-left">
+                  <img class="arr-cir" src="/assets/circle-arrow-up.png" />
+                  <div>
+                    <h1 class="trnscn-name">Creative Tim</h1>
+                    <p class="transcsn-date">26 March 2020, at 08:30 AM</p>
+                  </div>
+                </div>
+                <p class="grn">+ $ 2,500</p>
+              </div>
+              <div class="transtns">
+                <div class="transcn-left">
+                  <img class="arr-cir" src="/assets/circle-arrow-up.png" />
+                  <div>
+                    <h1 class="trnscn-name">Stripe</h1>
+                    <p class="transcsn-date">26 March 2020, at 13:45 PM</p>
+                  </div>
+                </div>
+                <p class="grn">+ $ 750</p>
+              </div>
+              <div class="transtns">
+                <div class="transcn-left">
+                  <img class="arr-cir" src="/assets/circle-arrow-up.png" />
+                  <div>
+                    <h1 class="trnscn-name">HubSpot</h1>
+                    <p class="transcsn-date">26 March 2020, at 12:30 PM</p>
+                  </div>
+                </div>
+                <p class="grn">+ $ 1,000</p>
+              </div>
+              <div class="transtns">
+                <div class="transcn-left">
+                  <img class="arr-cir" src="/assets/circle-exclamation.png" />
+                  <div>
+                    <h1 class="trnscn-name">Webflow</h1>
+                    <p class="transcsn-date">26 March 2020, at 05:00 AM</p>
+                  </div>
+                </div>
+                <p class="pndg">Pending</p>
+              </div>
+            </div>
+          </div>
+          <footer>
+            <p class="fot-p">
+              © 2022, made with ❤️ by<span style="font-weight: 700">
+                Creative Tim</span
+              >
+              for a better web.
+            </p>
+            <div class="footer-links">
+              <p>Creative Tim</p>
+              <p>About Us</p>
+              <p>Blog</p>
+              <p>License</p>
+            </div>
+          </footer>
+        </div>
+      </section>
+    </main>
+
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
